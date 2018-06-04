@@ -1,3 +1,10 @@
+/* 
+	1	5	7
+	6	10	4
+	2	8	3
+	
+	The minimum cost to reach element [2][2] is 13 with path [0][0](1)-[0][1](5)-[1][2](4)-[2][2](3).
+*/
 #include <bits/stdc++.h>
 using namespace std;
 int cost[10][10];
