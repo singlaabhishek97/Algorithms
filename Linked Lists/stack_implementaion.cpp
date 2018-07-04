@@ -1,3 +1,4 @@
+// implementation of stack with the help of linked lists
 #include <iostream>
 #include <malloc.h>
 using namespace std;
