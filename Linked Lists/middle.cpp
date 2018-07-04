@@ -10,7 +10,7 @@ node* newnode(int data){
 	temp->data = data;
 	return temp;
 }
-node* middle(node* head){
+node* middle(node* head){	// returns the middle element
 	node *temp1 = head, *temp2 = head;
 	while(temp2->next){
 		temp1 = temp1->next;
